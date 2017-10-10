@@ -1,0 +1,13 @@
+EXE_INC = \
+    -I$(LIB_SRC)/finiteVolume/lnInclude  \
+    -I$(LIB_SRC)/transportModels/viscoelastic/lnInclude \
+    -I$(LIB_SRC)/meshTools/lnInclude \
+    -I./viscoelastic/lnInclude \
+    -I$(LIB_SRC)OpenFOAM/lnInclude
+
+EXE_LIBS = \
+    -lfiniteVolume \
+    -lviscoelasticTransportModels \
+    -lmeshTools 
+
+
