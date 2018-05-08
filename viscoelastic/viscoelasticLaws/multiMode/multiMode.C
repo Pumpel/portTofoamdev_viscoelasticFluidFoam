@@ -102,7 +102,8 @@ Foam::multiMode::divTau(volVectorField& U) const
 }
 
 
-Foam::tmp<Foam::volSymmTensorField> Foam::multiMode::tau() const
+Foam::tmp<Foam::volSymmTensorField> 
+Foam::multiMode::tau() const
 {
     tau_ *= 0;
 
